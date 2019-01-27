@@ -1,6 +1,6 @@
 import requests
 
-url_template= 'http://wttr.in/{}?mTqu&lang=ru'
+url_template= 'http://wttr.in/{}?mTn&lang=ru'
 cities = ['london', 'svo', 'cherepovets']
 for city in cities:
     url = url_template.format(city)
